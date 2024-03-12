@@ -1,0 +1,35 @@
+This is the getting-over-it clone I came up with that has an emphasis on actually fun gameplay while also keeping the whole massive punishment thing
+~Grappling hooks, bullet time, wall running (probably), a gun or melee weapon (add breakable walls to challenges) and a single double jump (maaaaaaybe, may make the punishment too forgiving)
+~Small circlular tower means that it's harder to fall an extremely long distance but should still be possible
+~Have a cheat menu enabled by pressing the key undernearth escape (the ` one) where you can enable certain cheats (one should be checkpoints for actual fun)
+~Have bosses at different points that require all of the players abilities to beat.
+~Should play more of Jump King and Getting Over It to understand more about the actual challenges of those games. How difficult should each smaller section be? How much unfairness is enough or this kind of game? Should the bosses knock you off in one hit (probably yes)? 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cheat command line:
+~"chkpnt" enables or disables checkpoints system in game
+~"rfrncs" toggled dialogue being references to funny youtube videos, vines, movies, etc (and maybe some other things can be refernces, like sprites and stuff). 
+~"rfrncs list" displays a list of all of the references used in the game 
+~"speedrunMode" toggles speedrun mode, which removes boss dialogue, boss entrances, and adds an in-game timer
+~Following any of the toggles with "status" will tell you if they are enabled in-game or not.
+
+Cheats should should be unlocked through playing the game and should only be possible to use in the command line if they have been unlocked. This also applies to if they are displayable in the "help" command
+
+Cheats can be used by inputting them like classic cheat codes in the main menu.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Game length guidelines:
+The game, when played the intended way without any mistakes, should take around 5 minutes to beat. This was decided by looking at the speedrun.com sections of Getting Over It, Jump King, Pogostuck, and Only Up. Their highest times were, respectively, 0:59, 4:06, 3:51 (on monolith), and 15:15 (Only Up is just unnaturaly long and you don't fall that much). These runs include a number of sequence breaks, so it's very important to remember them in Tower Scale but to make them extremely difficult one way or another.
+
+If there are more opportunities to fall when playing, then the game will naturally last longer, meaning that a no-mistake run can be shorter.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The start:
+~The game has a menu before you start playing where you get to pick what things your run has. More options gradually open up as the game is played and things are unlocked.
+~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The ending:
+~The ending of the game has the player grapple to a grapple point in the ceiling of the tower, then a cutscene plays showing them smashing through it and landing on the roof of the tower in a crouched pose. They are a knight wearing traditional medieval armour with a sci-fi feel (inspired by an MFP post linked below). He gets up and looks out into the distance and sees his castle with a plume of smoke coming out of the top. Some dialogue at the bottom appears and says "I'm on my way Priscilla" before jumping down the side of the tower.
+~Armour inspo link: https://tyrantisterror.tumblr.com/post/642071482397261824/some-of-the-many-nps-contractor-staff-you-might)
+~Testing the background of the final cutscene, test with an appropriate picture from https://www.instagram.com/ben.ji.art/
