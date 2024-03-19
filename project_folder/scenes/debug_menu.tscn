@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://cphq4ajstys11"]
+
+[ext_resource type="Script" path="res://scripts/debug_menu.cs" id="1_p63cm"]
+
+[node name="debug_menu" type="Node2D"]
+script = ExtResource("1_p63cm")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 2.0
+offset_right = 1150.0
+offset_bottom = 78.0
+text = "Welcome to the debug menu. You have probably accessed this menu from either using the correct cheat code, or by running this scene directly through the editor. Here you can access some cheats that have been implemented in the game, view and play test scenes, and anything else that should be included in a debug menu. "
+autowrap_mode = 3
+
+[node name="CS_test" type="Button" parent="."]
+offset_left = 24.0
+offset_top = 107.0
+offset_right = 269.0
+offset_bottom = 161.0
+text = "CSharp test scene
+(this was to test basic C# code)"
+
+[node name="multiple_key_test" type="Button" parent="."]
+offset_left = 291.0
+offset_top = 97.0
+offset_right = 488.0
+offset_bottom = 174.0
+text = "Multiple key test
+(to test how the input functions
+ handle multiple keys pressed at once)"
+
+[node name="pronouns_test" type="Button" parent="."]
+offset_left = 627.0
+offset_top = 97.0
+offset_right = 911.0
+offset_bottom = 174.0
+text = "Pronouns test
+(testing the use of different
+pronouns in some sample dialogue)"
+
+[connection signal="pressed" from="CS_test" to="." method="_on_button_pressed" binds= ["cs_test"]]
+[connection signal="pressed" from="multiple_key_test" to="." method="_on_button_pressed" binds= ["multiple_keys"]]
+[connection signal="pressed" from="pronouns_test" to="." method="_on_button_pressed" binds= ["pronouns_test"]]
